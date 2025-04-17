@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CTABusTracker" parent="Base.Theme.CTABusTracker">
+        <item name="android:statusBarColor">@color/green</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="fontFamily">@font/helvetica_neue_medium</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:windowSplashScreenBackground">@color/light_green</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/green</item>
+
+    </style>
+
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/light_green</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="20dp"
+    android:paddingHorizontal="10sp"
+    android:paddingBottom="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/splash_bus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:tint="@color/black" />
+
+
+    <TextView
+        android:id="@+id/busnum"
+        android:text="@string/app_fullname"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="@id/logo"
+        app:layout_constraintBottom_toBottomOf="@id/logo"
+        app:layout_constraintStart_toEndOf="@+id/logo"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/businfo"
+        android:textSize="16sp"
+        android:lineHeight="25dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_marginTop="16dp"
+       style="@style/Widget.MaterialComponents.Button.TextButton"
+       android:id="@+id/btnmap"
+       app:layout_constraintTop_toBottomOf="@+id/businfo"
+       app:layout_constraintStart_toStartOf="parent"
+       android:text="@string/show_on_map"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:id="@+id/btnok"
+        app:layout_constraintTop_toBottomOf="@+id/businfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

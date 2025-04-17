@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BusTracker</string>
+    <string name="app_fullname">Bus Tracker - CTA</string>
+    <string name="info">Info</string>
+    <string name="msg">CTA Bus Tracker data provided by Chicago Transit Authority</string>
+    <string name="devlink">https://www.transitchicago.com/developers/bustracker/</string>
+    <string name="ok">OK</string>
+    <string name="enter_text">Search by route number/name</string>
+    <string name="show_on_map">SHOW ON MAP</string>
+</resources>

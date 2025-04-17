@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buslayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp"
+    android:paddingLeft="20sp"
+    android:layout_marginBottom="1dp"
+    android:background="@color/medium_green"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/busname"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/busdue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/busdue"
+        android:paddingEnd="8dp"
+        android:textStyle="italic"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/busdir"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintEnd_toStartOf="@+id/bustime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/busname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/bustime"
+        android:textStyle="italic|bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="8dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/busdue"
+        tools:ignore="RtlSymmetry" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
