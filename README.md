@@ -50,7 +50,7 @@ The app uses the **location services** to get the user's current location and ca
 
 ## Setup
 - Obtain an API key from [CTA Bus](https://www.ctabustracker.com/account)  Tracker.
-- Add your API key to the app's [configuration]().
+- Add your API key to the app's [configuration](app/build.gradle.kts).
   
 ```java
 ....
