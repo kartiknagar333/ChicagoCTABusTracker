@@ -61,3 +61,10 @@ The app uses the **location services** to get the user's current location and ca
 ....
 ```
 
+## Download APK for Testing
+You can download the APK file for testing from the release below:
+- [Download v1.0 Testing APK](https://github.com/kartiknagar333/VisualCrossingWeatherApp/releases/tag/v1.0)
+<br>  
+
+## Screenshots
+- ****
