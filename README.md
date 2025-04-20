@@ -68,7 +68,26 @@ You can download the APK file for testing from the release below:
 
 ## Screenshots
 - **MainActivity**
-  
+  <div align="center">
+  <img src="https://github.com/user-attachments/assets/b3a401ee-17cd-4eca-b499-c9fd78eb52a0" alt="Home" width="336" height="748" />
+</div>
+<br>
+
 - **StopsActivity**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/97ef62f7-ec69-4910-b9f0-a70767abf663" alt="Home" width="336" height="748"/>
+</div>
+<br>
+![sec]()
 
 - **PredictionsActivity**
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7381c262-8c30-42be-8f62-c8bb896244aa" alt="Home" width="336" height="748" hspace = "10px"/>
+  <img src="https://github.com/user-attachments/assets/52760460-d068-4bce-9924-968ba777c867" alt="Home" width="336" height="748" hspace = "10px"/>
+  <img src="https://github.com/user-attachments/assets/a55fe957-fcd7-446e-ac95-74812f9d08af" alt="Home" width="336" height="748" />
+</div>
+<br>
+
+
+
+
