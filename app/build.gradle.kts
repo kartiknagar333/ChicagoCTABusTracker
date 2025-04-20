@@ -13,8 +13,6 @@ android {
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "API_KEY", "WXkE46uwciZa76Q86PghSDxBA")
-
     }
 
     buildFeatures {
@@ -24,7 +22,7 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField("String", "API_KEY", "\"WXkE46uwciZa76Q86PghSDxBA\"")
+            buildConfigField("String", "API_KEY", "\"Your API KEY\"")
         }
         release {
             isMinifyEnabled = false
