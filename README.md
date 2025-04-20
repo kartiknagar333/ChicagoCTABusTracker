@@ -53,6 +53,11 @@ The app uses the **location services** to get the user's current location and ca
 - Add your API key to the app's [configuration]().
   
 ```java
-
+....
+ buildTypes {
+        debug {
+            buildConfigField("String", "API_KEY", "\"Your API KEY\"")
+        }
+....
 ```
 
