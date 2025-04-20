@@ -1,6 +1,5 @@
 package com.example.ctabustracker.API;
-import android.util.Log;
-import android.widget.Toast;
+
 
 import com.android.volley.Cache;
 import com.android.volley.NetworkResponse;
@@ -10,6 +9,7 @@ import com.android.volley.Response;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.example.ctabustracker.Activity.MainActivity;
+import com.example.ctabustracker.BuildConfig;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +19,9 @@ import java.io.UnsupportedEncodingException;
 
 
 public class Getroutes {
-    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getroutes?key=WXkE46uwciZa76Q86PghSDxBA&format=json";
+    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getroutes?key="+
+            BuildConfig.API_KEY +"&format=json";
+
     private final MainActivity mainActivity;
     private JSONArray routes = null;
 

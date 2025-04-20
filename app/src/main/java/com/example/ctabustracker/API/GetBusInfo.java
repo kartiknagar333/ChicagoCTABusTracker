@@ -3,6 +3,7 @@ package com.example.ctabustracker.API;
 import com.android.volley.Request;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.example.ctabustracker.Activity.PredictionsActivity;
+import com.example.ctabustracker.BuildConfig;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -10,7 +11,8 @@ import org.json.JSONObject;
 
 
 public class GetBusInfo {
-    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getvehicles?key=WXkE46uwciZa76Q86PghSDxBA&format=json&vid=";
+    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getvehicles?key="+
+            BuildConfig.API_KEY +"&format=json&vid=";
     private final PredictionsActivity predictionsActivity;
     private JSONObject object = null;
 

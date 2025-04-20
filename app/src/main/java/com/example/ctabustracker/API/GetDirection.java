@@ -10,6 +10,7 @@ import com.android.volley.Response;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.example.ctabustracker.Activity.MainActivity;
+import com.example.ctabustracker.BuildConfig;
 import com.example.ctabustracker.Model.Routes;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GetDirection {
-    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getdirections?key=WXkE46uwciZa76Q86PghSDxBA&format=json&rt=";
+    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getdirections?key="+
+            BuildConfig.API_KEY +"&format=json&rt=";
     private final MainActivity mainActivity;
     private JSONArray direction = null;
     private List<String> list = new ArrayList<>();

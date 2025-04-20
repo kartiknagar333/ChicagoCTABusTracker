@@ -73,6 +73,8 @@ public class PredictionsActivity extends AppCompatActivity  implements AdsCallba
             lat = bundle.getDouble("lat");
             lon = bundle.getDouble("lon");
         }
+
+
         binding.toolbar.setTitle("");
         binding.toolbarTitle.setText("Route  "+ route + " - " + name);
         binding.toolbarTitle.setSelected(true);

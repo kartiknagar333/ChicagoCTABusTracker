@@ -16,6 +16,7 @@ androidMapsUtils = "0.5"
 swiperefreshlayout = "1.1.0"
 unityAds = "4.9.1"
 
+
 [libraries]
 core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

@@ -12,15 +12,20 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "API_KEY", "WXkE46uwciZa76Q86PghSDxBA")
+
     }
 
     buildFeatures {
+        buildConfig = true
         viewBinding = true
     }
 
     buildTypes {
+        debug {
+            buildConfigField("String", "API_KEY", "\"WXkE46uwciZa76Q86PghSDxBA\"")
+        }
         release {
             isMinifyEnabled = false
             proguardFiles(

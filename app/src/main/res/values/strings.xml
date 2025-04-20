@@ -7,4 +7,6 @@
     <string name="ok">OK</string>
     <string name="enter_text">Search by route number/name</string>
     <string name="show_on_map">SHOW ON MAP</string>
+
+    <string name="APIKEY">WXkE46uwciZa76Q86PghSDxBA</string>
 </resources>

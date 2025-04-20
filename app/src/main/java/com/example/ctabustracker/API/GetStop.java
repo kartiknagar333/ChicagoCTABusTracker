@@ -1,6 +1,5 @@
 package com.example.ctabustracker.API;
 
-import android.widget.Toast;
 
 import com.android.volley.Cache;
 import com.android.volley.NetworkResponse;
@@ -10,13 +9,17 @@ import com.android.volley.Response;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.example.ctabustracker.Activity.StopsActivity;
+import com.example.ctabustracker.BuildConfig;
+import com.example.ctabustracker.R;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.io.UnsupportedEncodingException;
 
 public class GetStop {
-    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getstops?key=WXkE46uwciZa76Q86PghSDxBA&format=json&rt=";
+    private static final String URL = "https://www.ctabustracker.com/bustime/api/v2/getstops?key="+
+            BuildConfig.API_KEY +"&format=json&rt=";
     private final StopsActivity stopsActivity;
     private JSONArray stoparray = null;
 

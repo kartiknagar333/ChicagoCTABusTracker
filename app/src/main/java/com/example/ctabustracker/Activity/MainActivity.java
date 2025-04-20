@@ -31,6 +31,7 @@ import androidx.appcompat.view.menu.MenuPopupHelper;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.splashscreen.SplashScreen;
+import androidx.core.view.WindowCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.ctabustracker.API.GetDirection;

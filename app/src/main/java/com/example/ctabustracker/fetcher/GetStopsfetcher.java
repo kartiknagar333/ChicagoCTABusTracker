@@ -40,7 +40,8 @@ public class GetStopsfetcher {
         for (int i = 0; i < stops.length(); i++) {
             try {
                 JSONObject ob = stops.getJSONObject(i);
-                if (check1000m(new LatLng(ob.getDouble("lat"), ob.getDouble("lon"))) <= 1000){
+                //If you want get stops in 1000m radius from the user location, you can edit the if condition.
+                if (check1000m(new LatLng(ob.getDouble("lat"), ob.getDouble("lon"))) > 0){
                     Stops stop = new Stops(ob.getString("stpid"),
                             ob.getString("stpnm"),
                             ob.getDouble("lat"),
