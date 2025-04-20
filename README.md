@@ -67,3 +67,8 @@ You can download the APK file for testing from the release below:
 <br>  
 
 ## Screenshots
+- **MainActivity**
+  
+- **StopsActivity**
+
+- **PredictionsActivity**
