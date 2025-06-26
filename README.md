@@ -78,7 +78,6 @@ You can download the APK file for testing from the release below:
   <img src="https://github.com/user-attachments/assets/97ef62f7-ec69-4910-b9f0-a70767abf663" alt="Home" width="336" height="748"/>
 </div>
 <br>
-![sec]()
 
 - **PredictionsActivity**
 <div align="center">
